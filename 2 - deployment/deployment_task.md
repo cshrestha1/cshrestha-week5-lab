@@ -25,7 +25,7 @@ So the deployment controller seems to bring up the desired pods everytime a new 
 __Task 3, step 6: What command did you use to roll back the deployment?__
 
 ```
-kubectl rollout history deployment/nginx-deployment --revision=1
+kubectl rollout undo deployment/nginx-deployment --to-revision=1
 
 ```
 
